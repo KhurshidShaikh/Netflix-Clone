@@ -316,12 +316,12 @@ nav{
 }
 .hero>:nth-child(2) {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 19px;
     text-align: center;
 }
 .hero>:nth-child(3) {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 19px;
     text-align: center;
 
 }
@@ -357,12 +357,15 @@ nav img {
 }
 
 .main .box{
-    height: 119vh;
+    height: 90vh;
 
 }
 .main{
-    height: 119vh;
-    overflow:hidden ;
+    height: 90vh;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    
 }
 .btns #btn1 {
     margin: 10px;
@@ -384,4 +387,8 @@ nav img {
 footer{
     font-size: 10px;
 }
+ .footer-boxes{
+    gap: 10px;
+}
+    
 }
